@@ -1,0 +1,77 @@
+body {
+  background: #f9f7fe;
+}
+.container {
+  width: 550px;
+  height: 300px;
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+header form {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+form input {
+  padding: 10px;
+}
+form .searchInput {
+  width: 80%;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+  background-color: #f9f7fe;
+}
+form .searchBtn {
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 20px;
+}
+h1 {
+  position: relative;
+  left: 15px;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 38px;
+}
+p {
+  position: relative;
+  left: 15px;
+  opacity: 0.5;
+  margin-top: 0;
+}
+.current-weather strong {
+  color: #f65282;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: -20px;
+}
+p a {
+  color: #885df1;
+}
+#degree {
+  font-size: 50px;
+  position: relative;
+  font-size: 70px;
+  font-weight: bold;
+  left: 360px;
+  top: -90px;
+}
+#degree span {
+  font-size: 40px;
+}
